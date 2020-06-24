@@ -6,7 +6,7 @@
 /*   By: bsimelan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 08:33:53 by bsimelan          #+#    #+#             */
-/*   Updated: 2020/06/23 08:34:51 by bsimelan         ###   ########.fr       */
+/*   Updated: 2020/06/24 14:51:22 by bsimelan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,5 +16,5 @@ void ft_print_alphabet (void)
 	char letter = 'a';
 	while (letter <= 'z' ){
 		ft_putchar (letter);
-		letter = letter + 1;
+	}		letter = letter + 1;
 }
